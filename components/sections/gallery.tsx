@@ -9,14 +9,14 @@ const photos = [
     label: "🎤 Main Lounge Stage",
   },
   {
-    src: "/images/lounge-6.jpeg",
+    src: "/images/lounge-20.jpeg",
     alt: "Premium sound system and karaoke screen",
     label: "🎧 Pro Audio & Screen",
   },
   {
     src: "/images/lounge-7.jpeg",
     alt: "Comfy seating and warm ambient stage lighting",
-    label: "🛋️ Cozy Seating Area",
+    label: "🛋️ Birthday Celebrations",
   },
   {
     src: "/images/lounge-8.jpeg",
