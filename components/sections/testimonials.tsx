@@ -13,13 +13,6 @@ const testimonials = [
       "If singing is your passion, this is the place for you. A vibrant, energetic atmosphere and a supportive community. The setup is homely yet professional, and the meticulous hosting by Mrs. Seema is truly commendable and encouraging.",
   },
   {
-    name: "Nir Gh",
-    role: "Lounge Regular",
-    initial: "N",
-    quote:
-      "Excellent setup, wonderful atmosphere, theme-wise events, open mic sessions, and an awesome vibe. Kudos to the organizers for bringing together such multi-talented singers!",
-  },
-  {
     name: "Naresh Pal Khera",
     role: "Google Reviewer",
     initial: "N",
