@@ -27,13 +27,13 @@ export function Navbar() {
       )}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
-        <Link href="#home" className="flex items-center gap-2.5 transition-transform hover:scale-105 active:scale-95 duration-200" aria-label={`${site.name} home`}>
-          <span className="flex size-10 items-center justify-center rounded-full bg-burgundy text-burgundy-foreground shadow-sm">
-            <Music2 className="size-5" />
+        <Link href="#home" className="flex items-center gap-3 transition-transform hover:scale-105 active:scale-95 duration-200" aria-label={`${site.name} home`}>
+          <span className="flex size-12 items-center justify-center rounded-full bg-burgundy text-burgundy-foreground shadow-sm">
+            <Music2 className="size-6" />
           </span>
           <span className="flex flex-col leading-none">
-            <span className="font-heading text-xl font-bold tracking-tight text-foreground">Surabhi</span>
-            <span className="text-[0.65rem] font-extrabold uppercase tracking-[0.22em] text-burgundy">
+            <span className="font-heading text-2xl font-black tracking-tight text-foreground">Surabhi</span>
+            <span className="text-[0.75rem] font-black uppercase tracking-[0.24em] text-burgundy mt-0.5">
               Karaoke Lounge
             </span>
           </span>

@@ -55,7 +55,7 @@ export function About() {
                 </span>
                 <div className="leading-tight">
                   <p className="text-xs text-muted-foreground font-medium">Established</p>
-                  <p className="text-sm font-extrabold text-foreground">Since 2023</p>
+                  <p className="text-sm font-extrabold text-foreground">Since 2025</p>
                 </div>
               </div>
 

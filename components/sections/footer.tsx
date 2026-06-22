@@ -28,13 +28,13 @@ export function Footer() {
 
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3">
-              <span className="flex size-11 items-center justify-center rounded-full bg-burgundy text-white shadow-[3px_3px_0px_0px_var(--gold)]">
-                <Music2 className="size-5" />
+            <div className="flex items-center gap-3.5">
+              <span className="flex size-13 items-center justify-center rounded-full bg-burgundy text-white shadow-[3px_3px_0px_0px_var(--gold)]">
+                <Music2 className="size-6" />
               </span>
               <div className="flex flex-col leading-none">
-                <span className="font-heading text-xl font-bold tracking-tight text-foreground">Surabhi</span>
-                <span className="text-[0.62rem] font-bold uppercase tracking-[0.2em] text-muted-foreground">
+                <span className="font-heading text-2xl font-black tracking-tight text-foreground">Surabhi</span>
+                <span className="text-[0.75rem] font-black uppercase tracking-[0.24em] text-muted-foreground mt-0.5">
                   Karaoke Lounge
                 </span>
               </div>
