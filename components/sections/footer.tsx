@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Music2, Phone, MapPin, Mic2 } from "lucide-react"
 import { navLinks, site } from "@/lib/site"
-import { InstagramIcon, FacebookIcon, YoutubeIcon } from "@/components/icons/social"
+
 
 const marqueeItems = [
   "🎤 Karaoke", "🎵 Jamming", "🎶 Solo Practice", "🎸 Groups",
@@ -49,22 +49,7 @@ export function Footer() {
               <span className="text-xs font-bold text-burgundy">Sing. Jam. Create Memories.</span>
             </div>
 
-            <div className="mt-5 flex gap-3">
-              {[
-                { icon: InstagramIcon, label: "Instagram" },
-                { icon: FacebookIcon, label: "Facebook" },
-                { icon: YoutubeIcon, label: "YouTube" },
-              ].map((s) => (
-                <Link
-                  key={s.label}
-                  href="#"
-                  aria-label={s.label}
-                  className="flex size-10 items-center justify-center rounded-full border-2 border-border bg-card text-muted-foreground transition-all duration-200 hover:border-burgundy hover:bg-burgundy hover:text-white hover:scale-110 hover:-translate-y-0.5 active:scale-95"
-                >
-                  <s.icon className="size-4" />
-                </Link>
-              ))}
-            </div>
+
           </div>
 
           {/* Nav links */}
