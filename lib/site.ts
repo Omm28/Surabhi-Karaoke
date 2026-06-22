@@ -7,6 +7,7 @@ export const site = {
   address: "24, 1st Main, 18th A Cross Rd, Bhuvaneswari Nagar, Hebbal Kempapura, Bengaluru, Karnataka 560024, India",
   whatsappMessage:
     "Hi Surabhi Karaoke Lounge! I'd love to know more about your studio.",
+  whatsappGroupLink: "https://chat.whatsapp.com/HhuUhf06vmO7j6MKVulPbo",
 } as const
 
 export function whatsappHref(message: string = site.whatsappMessage) {
@@ -18,5 +19,7 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Gallery", href: "#gallery" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "Announcements", href: "#announcements" },
   { label: "Contact", href: "#contact" },
 ] as const
+
